@@ -1,0 +1,51 @@
+.backdrop{
+    background-color: rgba(0, 0, 0, 0.151);
+    backdrop-filter: blur(1px);
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 10;
+}
+
+.popup{
+    position: fixed;
+    height: 100px;
+    background-color: white;
+    border: 2px solid #003c7d;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    aspect-ratio: 17/9;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    z-index: 20;
+}
+
+.popup button{
+    background-color: #003C7D;
+    color: #ffffff;
+    border: none;
+    padding: 0.3rem 1rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    margin: 0 0.2rem;
+}
+
+.popup .hidden, .hiddenextra{
+    display: none;
+}
+
+.popup .buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.popup .cancel{
+    background-color: white;
+    color:red;
+    border: 2px solid red;
+}

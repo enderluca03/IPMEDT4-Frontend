@@ -1,0 +1,77 @@
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.form .inputs{
+    width: 80vw;
+    max-width: 1000px;
+}
+
+.form legend{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 2rem 0;
+}
+
+.form label{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.form fieldset{
+    margin-bottom: 1rem;
+    border: none;
+}
+
+.form input[type="text"], .form textarea[type="text"], .form input[type="password"]{
+    border: 2px solid #003C7D;
+    border-radius: 0.6rem;
+    width: 100%;
+    padding: 0.4rem 2.5rem;
+    margin: 0.3rem 0;
+    outline: none;
+}
+
+.form input[type="text"]:focus, .form textarea[type="text"]:focus, .form input[type="password"]:focus{
+    border-color: #F07814;
+}
+
+.form input::placeholder, .form textarea::placeholder {
+    color: #CCCCCC;
+}
+
+.form input[type="submit"]{
+    background-color: #003C7D;
+    color: #ffffff;
+    border: none;
+    padding: 0.3rem 2rem;
+    border-radius: 0.6rem;
+    margin: 2rem auto;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.form textarea{
+    height: 5rem;
+    resize: vertical;
+}
+
+.form .add_input{
+    display: flex;
+    align-items: center;
+    color: #003C7D;
+}
+
+.form .add_input img{
+    width: 25px;
+}
+
+.form .add_input > *:hover{
+    cursor: pointer;
+}
+
+.form .submit{
+    display: flex;
+    justify-content: center;
+}

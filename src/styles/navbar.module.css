@@ -1,0 +1,101 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-bottom: 2px solid #003c7d;
+  position: fixed;
+  width: 100vw;
+  min-height: 4rem;
+  overflow: hidden;
+}
+
+.header .navcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  max-width: 1000px;
+  padding: 1rem 0;
+}
+
+.header .logo,
+.header .loginContainer {
+  width: 10rem;
+}
+
+.header .logo {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.header .orange {
+  color: #f07814;
+}
+
+.header .blue {
+  color: #003c7d;
+}
+
+.header ul {
+  list-style-type: none;
+  display: flex;
+  font-weight: 500;
+}
+
+.header ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #303030;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header .loginContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header .hamburger {
+  display: none;
+  width: 30px;
+}
+
+.bigNav ul li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (width < 800px) {
+  .header .hamburger {
+    display: block;
+  }
+
+  .header .loginContainer,
+  .header .bigNav {
+    display: none;
+  }
+}
+
+.header .loginButton {
+  background-color: #003c7d;
+  color: #ffffff;
+  border: none;
+  padding: 0.3rem 2rem;
+  border-radius: 0.6rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.header .verticalNav {
+  display: none;
+  text-align: center;
+}
+
+.header .verticalNav nav,
+.header .verticalNav button {
+  margin-bottom: 1rem;
+}

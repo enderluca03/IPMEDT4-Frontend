@@ -1,0 +1,68 @@
+.homePage{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 5rem 3rem;
+}
+
+.homePage p{
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.homePage h1{
+    text-align: left;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+
+.homePage h2{
+    text-align: left;
+    padding-top: 1rem;
+    font-weight: 500;
+}
+
+.homePageFooter h3{
+    color: #ffffff;
+    text-align: center;
+    background-color: #003c7d;
+    font-weight: 500;
+}
+
+.homePage .bovendeelDiv{
+    max-width: 1000px;
+    width: 80vw;
+}
+
+.homePage .homepageImg{
+    margin: 1px;
+    width: 275px;
+    aspect-ratio: 12/9;
+    border: 2px solid #003c7d;
+}
+
+.homePageFooter{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.homePageFooter .LogoContainer{
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homePageFooter .logoImg{
+    display: block;
+    max-width: 300px;
+    max-height: 130px;
+    padding-top: 1rem;
+}
+
+@media screen and (width < 1000px) {
+    .homePageFooter .LogoContainer{
+        flex-direction: column;
+    }
+}

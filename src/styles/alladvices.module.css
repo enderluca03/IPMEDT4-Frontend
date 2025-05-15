@@ -1,0 +1,50 @@
+.advices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adviceContainer{
+    width: 80vw;
+    max-width: 1000px;
+}
+
+.inputWrapper{
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #003C7D;
+    height: 2.5rem;
+    padding: 0 15px;
+    align-items: center;
+}
+
+input[type="search"]{
+    background-color: transparent;
+    border: 1px #003C7D;
+    height: 100%;
+    font-size: 1.25rem;
+    width: 100%;
+    text-align: left;
+    padding-left: 3rem;
+    background:url(/assets/icons/search_icon.svg) no-repeat;
+    background-position: left;
+    background-size: 24px;
+}
+
+input[type="search"]:focus{
+    outline: none;
+}
+
+input[type="search"]::placeholder{
+    color: #CCCCCC;
+}
+
+.searchBarContainer {
+    padding-top: 1rem;
+    width: 80vw;
+    margin: auto;
+    align-items: center;
+    min-width: 200px;
+    max-width: 750px;
+}

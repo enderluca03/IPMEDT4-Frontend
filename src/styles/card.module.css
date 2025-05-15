@@ -1,0 +1,85 @@
+.card{
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 0.3rem;
+    background-color: white;
+    cursor: pointer;
+}
+
+.card .cardheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.card .cardcontent{
+    padding: 0.5rem;
+}
+
+.card .flipped{
+    transform: rotate(180deg); 
+}
+
+.card .carddescription{
+    list-style-type: none;
+    margin: 0.4rem 0;
+    word-wrap: break-word
+}
+
+.card .cardadvices{
+    margin: 0.4rem 0;
+}
+
+.card ul{
+    list-style-position: inside
+}
+
+.card li{
+    margin: 0.2rem 0;
+}
+
+.cardclosed{
+    box-shadow: 0px 2px 4px 0px #003c7d80;
+}
+
+.cardopened{
+    border: 2px solid #003c7d;
+}
+
+.cardopened .cardheader{
+    border-bottom: 2px solid #003c7d;
+}
+
+.cardopened .cardheader .cardtitle{
+    font-weight: 800;
+}
+
+.card .hidden{
+    display: none;
+}
+
+.card .iconButtons{
+    display: flex;
+    align-items: center;
+}
+
+.isremoved{
+    display: none;
+}
+
+.card .expandbutton{
+    width: 40px;
+    height: 40px;
+}
+
+.card .deletebutton{
+    margin-right: 8px;
+    width: 30px;
+    height: 30px;
+}
+
+.card .editbutton{
+    width: 25px;
+    height: 25px;
+}
